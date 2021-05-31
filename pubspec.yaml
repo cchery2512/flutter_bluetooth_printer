@@ -1,0 +1,27 @@
+name: flutter_bluetooth_printer
+description: Flutter + Bluetooth Printer
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  
+  oktoast:
+  image:
+  esc_pos_bluetooth:
+  esc_pos_utils:
+  charset_converter:
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
